@@ -35,7 +35,5 @@ if __name__ == '__main__':
     path="../sourceData/"
     fileName = "TableA-Orders.csv"
     city_num, matrix=matrix_gene(path)
-    for i in range(city_num):
-        for j in range(city_num):
-            print(matrix[i][j],end=' ')
-        print(" ")
+    csv_matrix=pd.DataFrame(matrix)
+    csv_matrix.to_csv(path+"OrderMatrix.csv")
