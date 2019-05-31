@@ -2,7 +2,7 @@
 # This file include data pre-process
 # function list:
 # xlsx_to_csv(source_file, aim_file_pile)
-# xlsx_to_csv_pd(source_file, aim_file)
+# xlsx_to_csv_pd(source_file, aim_file, sheet_pile)
 # csv_to_xlsx(source_file, aim_file)
 # csv_to_xlsx_pd(source_file, aim_file)
 #######################################################
@@ -25,9 +25,14 @@ def xlsx_to_csv(source_file, aim_file_pile):
                 row_value = table.row_values(row_num)
                 write.writerow(row_value)
 
-def xlsx_to_csv_pd(source_file, aim_file):
-    data_xls = pd.read_excel(source_file, index_col=0)
-    data_xls.to_csv(aim_file, encoding='utf-8')
+def xlsx_to_csv_pd(source_file, aim_file, sheet_name=[], aim_file_pile=[]):
+    if(not sheet_name):
+        data_xls = pd.read_excel(source_file, index_col=0)
+        data_xls.to_csv(aim_file, encoding='utf-8')
+    else:
+        for i in range(len(sheet_name)):
+            data_xls = pd.read_excel(source_file, index_col=0, sheet_name=sheet_name[i])
+            data_xls.to_csv(aim_file_pile[i], encoding='utf-8')
 
 
 def csv_to_xlsx(source_file, aim_file):
@@ -60,11 +65,12 @@ def DataTransTest():
     # read from D-file
     aim_file_pile=["../sourceData/TableD-Plane.csv", "../sourceData/TableD-Ship.csv",
                    "../sourceData/TableD-Train.csv", "../sourceData/TableD-Truck.csv"]
+    vehicles=["Plane","Ship","Train","Truck"]
     for i in range(3):
         xlsx_to_csv_pd(xlsx_list[i],csv_list[i])
         # csv_to_xlsx(csv_list[1],xlsx_out_list[1])
         pass
-    xlsx_to_csv(xlsx_list[3], aim_file_pile)
+    xlsx_to_csv_pd(xlsx_list[3], csv_list[3], vehicles, aim_file_pile)
     pass
 
 if __name__ == '__main__':
