@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dda8bd9-6a38-4c19-8ea2-caf6de61683d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sourceCode/DataTrans.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableA-Orders.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableA-Orders.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableB-Commodities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableB-Commodities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableC-DistanceMatrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableC-DistanceMatrix.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableD-TransportationTools.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableD-TransportationTools.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCode/DataTrans.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/DataTrans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCode/matrixGene.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/DataNpy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,27 +15,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourceCode/matrixGene.py">
+        <entry file="file://$PROJECT_DIR$/sourceCode/DataNpy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#32#51#0" expanded="true" />
+                <element signature="e#142#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourceCode/DataTrans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="202">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="e#282#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourceData/TableC-DistanceMatrix.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-14">
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Instruction/pd_to_np.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
     </leaf>
@@ -59,6 +70,7 @@
         <option value="$PROJECT_DIR$/matrixGene.py" />
         <option value="$PROJECT_DIR$/sourceCode/matrixGene.py" />
         <option value="$PROJECT_DIR$/sourceCode/DataTrans.py" />
+        <option value="$PROJECT_DIR$/sourceCode/DataNpy.py" />
       </list>
     </option>
   </component>
@@ -83,12 +95,7 @@
             <path>
               <item name="pycharmProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycharmProject" type="462c0819:PsiDirectoryNode" />
-              <item name="sourceCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pycharmProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pycharmProject" type="462c0819:PsiDirectoryNode" />
-              <item name="sourceData" type="462c0819:PsiDirectoryNode" />
+              <item name="Instruction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,7 +163,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sourceCode/matrixGene.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sourceCode/DataNpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,22 +194,23 @@
       <option name="presentableId" value="Default" />
       <updated>1559145399216</updated>
       <workItem from="1559145402002" duration="3312000" />
-      <workItem from="1559278502605" duration="2419000" />
+      <workItem from="1559278502605" duration="5141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5731000" />
+    <option name="totallyTimeSpent" value="8453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,15 +237,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/matrixGene.py" />
-    <entry file="file://$PROJECT_DIR$/sourceData/TableB-Commodities.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourceData/TableC-DistanceMatrix.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sourceData/TableD-TransportationTools.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
@@ -248,16 +247,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourceCode/matrixGene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="e#32#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sourceData/TableA-Orders.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-134418">
@@ -265,15 +254,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sourceData/TableB-Commodities.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceCode/DataNpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#142#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sourceCode/DataTrans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="202">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
             <element signature="e#282#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceData/TableC-DistanceMatrix.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-14">
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instruction/pd_to_np.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>
 </project>
