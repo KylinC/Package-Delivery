@@ -57,9 +57,9 @@ def DataTransTest():
     xlsx_out_list=["../sourceData/TableA-Orders.xlsx", "../sourceData/TableB-Commodities.xlsx",
                  "../sourceData/TableC-DistanceMatrix.xlsx", "../sourceData/TableD-TransportationTools.xlsx"]
     for i in range(4):
-        xlsx_to_csv(xlsx_list[i],csv_list[i])
+        xlsx_to_csv_pd(xlsx_list[i],csv_list[i])
+        # csv_to_xlsx(csv_list[1],xlsx_out_list[1])
         pass
-    csv_to_xlsx(csv_list[1],xlsx_out_list[1])
     pass
 
 if __name__ == '__main__':
