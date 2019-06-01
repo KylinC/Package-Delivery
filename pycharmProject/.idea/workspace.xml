@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dda8bd9-6a38-4c19-8ea2-caf6de61683d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sourceCode/DataTrans.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/DataTrans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableD-Plane.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableD-Plane.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableD-Ship.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableD-Ship.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableD-Train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableD-Train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/TableD-Truck.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/TableD-Truck.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCode/DataMatri.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/DataMatri.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,35 +15,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourceCode/DataTrans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sourceData/TableA-Orders.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-615">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="930">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourceData/TableA-Orders.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sourceCode/DataMatri.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="435">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourceData/TableD-Plane.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-2880" />
-          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
@@ -71,8 +65,8 @@
         <option value="$PROJECT_DIR$/matrixGene.py" />
         <option value="$PROJECT_DIR$/sourceCode/matrixGene.py" />
         <option value="$PROJECT_DIR$/sourceCode/DataNpy.py" />
-        <option value="$PROJECT_DIR$/sourceCode/DataMatri.py" />
         <option value="$PROJECT_DIR$/sourceCode/DataTrans.py" />
+        <option value="$PROJECT_DIR$/sourceCode/DataMatri.py" />
       </list>
     </option>
   </component>
@@ -87,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,7 +113,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,17 +232,18 @@
       <workItem from="1559278502605" duration="5141000" />
       <workItem from="1559300878566" duration="3259000" />
       <workItem from="1559305126947" duration="4262000" />
+      <workItem from="1559321941362" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15974000" />
+    <option name="totallyTimeSpent" value="16209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1280" height="1026" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2617504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,9 +270,9 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pycharmProject$DataMatri.coverage" NAME="DataMatri Coverage Results" MODIFIED="1559303179746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sourceCode" />
-    <SUITE FILE_PATH="coverage/pycharmProject$DataTrans.coverage" NAME="DataTrans Coverage Results" MODIFIED="1559315980237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sourceCode" />
     <SUITE FILE_PATH="coverage/pycharmProject$matrixGene.coverage" NAME="matrixGene Coverage Results" MODIFIED="1559282882679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sourceCode" />
+    <SUITE FILE_PATH="coverage/pycharmProject$DataTrans.coverage" NAME="DataTrans Coverage Results" MODIFIED="1559315980237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sourceCode" />
+    <SUITE FILE_PATH="coverage/pycharmProject$DataMatri.coverage" NAME="DataMatri Coverage Results" MODIFIED="1559303179746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sourceCode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/matrixGene.py" />
@@ -306,30 +301,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sourceCode/DataTrans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+        <state relative-caret-position="930">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourceData/TableD-Plane.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2880" />
-      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourceCode/DataMatri.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/sourceData/TableA-Orders.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourceData/TableA-Orders.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-615">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+    <entry file="file://$PROJECT_DIR$/sourceCode/DataMatri.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
     </entry>

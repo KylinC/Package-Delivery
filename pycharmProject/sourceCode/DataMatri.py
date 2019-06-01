@@ -21,6 +21,18 @@ def disMatrix_to_npy(disMatrixFile, npyFile):
     return dataframe
 
 
+def OrderMatrix(OrderFile):
+
+
+
+def TransportMatrix(TransportFile):
+
+
+
+def CargoMatrix(CargoFile):
+    
+
+
 def DataNpyTest():
     print(disMatrix_to_npy("../sourceData/TableC-DistanceMatrix.csv", "../sourceData/TableC-DistanceMatrix.npy"))
     pass
