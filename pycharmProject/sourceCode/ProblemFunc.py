@@ -66,7 +66,7 @@ def dfSearch(commonDeltaT, specialDeltaT, commonDDL, specialDDL, containerList=[
         for transport in searchQ:
             # print(transport)
             feasible_field = D_DFList[transport].loc[lambda df: D_DFList[transport][transport_column[0]] == source]
-            print(feasible_field.index)
+            # print(feasible_field.index)
             feasible_field = feasible_field.loc[lambda df: feasible_field[transport_column[1]] == sink]
             # if not have any search results
             if (len(feasible_field)==0):
@@ -104,7 +104,7 @@ def dfSearch(commonDeltaT, specialDeltaT, commonDDL, specialDDL, containerList=[
 
         #if (OPT_transport==-1 and OPT_transport_number==-1):
             #raise UDError(0)
-
+        print("%d th, from %d to %d, takes %s, number %d " %(idx,source,sink,transport_name[OPT_transport],OPT_transport_number))
         ResDF.loc[order_index[idx], "Transport"] = transport_name[OPT_transport]
         ResDF.loc[order_index[idx], "Vehicle"] = OPT_transport_number
         # print("success")
@@ -118,4 +118,4 @@ class UDError(Exception):
     pass
 
 if __name__ == '__main__':
-    dfSearch(120000, 60000, 10000, 10000)
+    dfSearch(120, 60, 3600, 1800, [50, 100, 150, 200])
