@@ -39,6 +39,19 @@ def orderMatrix(orderFile, rewrite=0):
     if(rewrite):
         dataframe.to_csv(orderFile, encoding='utf-8')
         pass
+    # dataframe.to_csv("../sourceData/orders.csv")
+    return dataframe
+    pass
+
+def orderMatrixD(orderFile, rewrite=0):
+    csv = pd.read_csv(orderFile)
+    dataframe = pd.DataFrame(csv)
+    dataframe = dataframe.sort_values(by=["City of Seller", "City of Purchaser", "Time of Order"])
+    # change by items in list of dataframe.columns
+    if(rewrite):
+        dataframe.to_csv(orderFile, encoding='utf-8')
+        pass
+    # dataframe.to_csv("../sourceData/orders.csv")
     return dataframe
     pass
 
