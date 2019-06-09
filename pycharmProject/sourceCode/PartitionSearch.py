@@ -57,7 +57,12 @@ def PSTest():
     nodeNumber = 656
     timelist=[0, 60]
     matrix = pandasDataInit(timelist, orderdataframe, commoditydataframe, nodeNumber)
-    print(matrix)
+    for i in range(25):
+        for j in range(nodeNumber+1):
+            for k in range(nodeNumber+1):
+                print(matrix[i][j][k], end=' ')
+            print('\n')
+        print("+++++++++++++++++++++++++++++++++++")
 
 
 class DataInitError(Exception):
