@@ -89,10 +89,12 @@ def cargoMatrix(cargoFile, rewrite=0):
 def DataNpyTest():
     transport_list=["../sourceData/TableD-Plane.csv", "../sourceData/TableD-Ship.csv",
                     "../sourceData/TableD-Train.csv", "../sourceData/TableD-Truck.csv"]
-    print(disMatrix_to_npy("../sourceData/TableC-DistanceMatrix.csv", "../sourceData/TableC-DistanceMatrix.npy"))
-    print(orderMatrix("../sourceData/TableA-Orders.csv"))
-    print(transportMatrix(transport_list))
-    print(cargoMatrix("../sourceData/TableB-Commodities.csv"))
+    # print(disMatrix_to_npy("../sourceData/TableC-DistanceMatrix.csv", "../sourceData/TableC-DistanceMatrix.npy"))
+    # print(orderMatrix("../sourceData/TableA-Orders.csv"))
+    # print(transportMatrix(transport_list))
+    test = cargoMatrix("../sourceData/TableB-Commodities.csv")
+    print(test.values)
+
     pass
 
 

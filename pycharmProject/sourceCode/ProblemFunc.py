@@ -23,7 +23,7 @@ def dfSearch(commonDeltaT, specialDeltaT, commonDDL, specialDDL, containerList=[
     # A_DF=orderMatrix("../sourceData/TableA-Orders.csv")
     A_DF = orderMatrixD("../sourceData/change/orders.csv")
     ############################
-    print(A_DF)
+    # print(A_DF)
     ############################
     transport_list = ["../sourceData/TableD-Plane.csv", "../sourceData/TableD-Ship.csv",
                       "../sourceData/TableD-Train.csv", "../sourceData/TableD-Truck.csv"]
@@ -111,6 +111,8 @@ def dfSearch(commonDeltaT, specialDeltaT, commonDDL, specialDDL, containerList=[
         pass
 
     ResDF.to_csv("../outData/out.csv")
+
+
 
 
 class UDError(Exception):
