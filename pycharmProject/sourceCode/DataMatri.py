@@ -43,6 +43,7 @@ def orderMatrix(orderFile, rewrite=0):
     return dataframe
     pass
 
+
 def orderMatrixD(orderFile, rewrite=0):
     csv = pd.read_csv(orderFile)
     dataframe = pd.DataFrame(csv)
@@ -82,7 +83,6 @@ def cargoMatrix(cargoFile, rewrite=0):
         pass
     return dataframe
     pass
-    
 
 
 # test function 1
@@ -94,7 +94,6 @@ def DataNpyTest():
     # print(transportMatrix(transport_list))
     test = cargoMatrix("../sourceData/TableB-Commodities.csv")
     print(test.values)
-
     pass
 
 
