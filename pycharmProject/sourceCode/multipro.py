@@ -35,9 +35,9 @@ def multicore(Process_num):
 
 if __name__ == '__main__':
     st = time.time()
-    normal(8)
+    normal(16)
     st1 = time.time()
     print('normal time:', st1 - st)
     st2 = time.time()
-    multicore(8)
+    multicore(16)
     print('multicore time:', time.time() - st2)
