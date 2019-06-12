@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dda8bd9-6a38-4c19-8ea2-caf6de61683d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sourceCode/gdbh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceCode/ButterflySystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/ButterflySystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceCode/PartitionSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/PartitionSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceCode/multipro.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCode/multipro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/change/plane.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/change/plane.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/change/ship.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/change/ship.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/change/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/change/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceData/change/truck.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sourceData/change/truck.csv" afterDir="false" />
-    </list>
+    <list default="true" id="1dda8bd9-6a38-4c19-8ea2-caf6de61683d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sourceCode/ButterflySystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="2460">
+              <caret line="181" column="6" lean-forward="true" selection-start-line="181" selection-start-column="6" selection-end-line="181" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -379,12 +369,12 @@
       <workItem from="1560160197147" duration="1896000" />
       <workItem from="1560184038351" duration="8499000" />
       <workItem from="1560229472514" duration="15135000" />
-      <workItem from="1560270204411" duration="801000" />
+      <workItem from="1560270204411" duration="1102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78179000" />
+    <option name="totallyTimeSpent" value="78480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
@@ -605,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sourceCode/ButterflySystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="2460">
+          <caret line="181" column="6" lean-forward="true" selection-start-line="181" selection-start-column="6" selection-end-line="181" selection-end-column="20" />
         </state>
       </provider>
     </entry>
