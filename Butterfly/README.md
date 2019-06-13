@@ -24,5 +24,8 @@ model.parse_matrix()
 
 aim_variable = model.data_out()
 # dict type sliceNumber -> orderlist
+
+m.random_all_pair_shortest()
+# get time slice OPT
 ```
 

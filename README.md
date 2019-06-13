@@ -5,25 +5,57 @@
 
 ### ButterflySystem
 
+- **Download** and **Install**
+
 ```bash
-linux@git clone https://github.com/KylinC/Package-Delivery.git
+ubuntu@ git clone https://github.com/KylinC/Package-Delivery.git
 ```
 
 ```
-linux@cd Butterfly
+ubuntu@ cd Butterfly
 ```
 
->
+```
+ubuntu@ tar -zxvf ButterflySystem-1.1.tar.gz
+```
 
+```
+ubuntu@ cd Butterfly
+```
 
+```
+ubuntu@ cd ButterflySystem-1.1/
+```
+
+```
+ubuntu@ sudo python setup.py install
+```
+
+- **Test**
+
+```
+ubuntu@ Python
+```
+
+```
+>> import ButterflySystem
+```
+
+> If no report error, butterfly installed.
 
 ### Pre-processed Data
 
 ```
-linux@cd DataSet
+linux@ cd DataSet
 ```
 
+```
+linux@ python
+```
 
+```
+>> from ButterflySystem.Data import *
+```
 
 ### Data Analysis
 
