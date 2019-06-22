@@ -59,12 +59,16 @@ linux@ python
 
 ### Data Analysis
 
-> Batch Degree Distribution
+> Cost Function Rate Infulence 
 
-![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-06-13-degree-distribution.png)
+![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-06-22-Rate.jpg)
 
 
 
-> Degree-Gradient classification 
+> IDDFS Depth Influence
 
-![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-06-13-pair.png)
+![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-06-22-costperday-.jpg)
+
+> Approximation Analysis
+
+![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-06-22-time_dfs4dfs6_norm.jpg)
